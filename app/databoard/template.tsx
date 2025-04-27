@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 
-export default function DataBoardLayout({ 
+export default function DataBoardTemplate({ 
   children 
 }: { 
   children: React.ReactNode 
@@ -13,13 +13,9 @@ const[count,setCount]=useState(0);
 
   return (
     <div className="border-2 border-dashed border-black p-4 
-    w-1/2 mt-10 ">
-        <div className="flex gap-4 font-bold text-lg mb-4 text-purple-500">
-        <Link href="/databoard/about">Abount</Link>
-        <Link href="/databoard/setting">Setting</Link>
-      </div>
-      <h2>DataBoardLayout {count}</h2>
-
+     mt-10 ">
+      
+      <h2>DataBoardTemplate {count}</h2>
       <button className="bg-blue-500 text-white p-2 rounded-md" onClick={()=>setCount(count+1)}>Increase</button>
       {children}
       

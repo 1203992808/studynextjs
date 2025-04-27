@@ -1,8 +1,7 @@
-export default function DataBoardLayout() {
+export default function HelloDataBoardPage() {
     return (
         <div>
-<h2> hello DataBoardLayout </h2>
+            <h2>hello HelloDataBoardPage</h2>
         </div>
-     
     );
-  }
+}

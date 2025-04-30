@@ -7,7 +7,7 @@ export default function hello () {
   return (
     
     <div>
-<Button type="primary">Button</Button>
+Home
 
     </div>
   )
